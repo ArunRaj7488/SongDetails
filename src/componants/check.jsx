@@ -29,7 +29,7 @@ export default class DrawerForm extends React.Component {
     if(!movie || !songName || !artist || !year){
       message.error("Please Enter Valid Details");
     }else{
-      
+
       axios.defaults.withCredentials = true;
       e.preventDefault();
       
@@ -74,7 +74,7 @@ export default class DrawerForm extends React.Component {
     return (
       <div>
         <Button type="primary" onClick={this.showDrawer}>
-          <Icon type="plus" /> New account
+          <Icon type="plus" /> Add New Song
         </Button>
         <Table11/>
         <Drawer
