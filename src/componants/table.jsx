@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import 'antd/dist/antd.css';
-import DrawerForm from './check'
+import DrawerForm from './song'
 import axios from 'axios';
 
 import { Table, Divider, Tag } from 'antd';
